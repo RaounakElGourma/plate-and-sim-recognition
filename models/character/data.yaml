@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 17
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'AMORR', 'BMORR', 'DMORR', 'EMORR', 'HMORR', 'TMORR', 'w']
+
+roboflow:
+  workspace: raounak-ln0uw
+  project: morr-character-licence-plate-01-2024-vphzc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/raounak-ln0uw/morr-character-licence-plate-01-2024-vphzc/dataset/1
