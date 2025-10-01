@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['License-Plate']
+
+roboflow:
+  workspace: raounak-ln0uw
+  project: palque-vadxt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/raounak-ln0uw/palque-vadxt/dataset/1
